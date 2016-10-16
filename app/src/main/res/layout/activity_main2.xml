@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mason.ontime.Main2Activity">
+
+    <TextView
+        android:text="Welcome, Mason!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeField"
+        android:textSize="36sp"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="Your Schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="24sp"
+        android:layout_below="@+id/welcomeField"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="1st Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/welcomeField"
+        android:layout_alignStart="@+id/welcomeField"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textView6"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignRight="@+id/welcomeField"
+        android:layout_alignEnd="@+id/welcomeField"
+        android:id="@+id/firstTime"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="2nd Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="48dp"
+        android:id="@+id/textView8"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignRight="@+id/firstTime"
+        android:layout_alignEnd="@+id/firstTime"
+        android:id="@+id/textView9"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView10"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="3rd Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_marginTop="60dp"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:id="@+id/textView12"
+        android:textSize="18sp"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:text="Wow. Super Functional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:fontFamily="casual" />
+
+</RelativeLayout>
